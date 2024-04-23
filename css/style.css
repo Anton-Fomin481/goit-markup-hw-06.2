@@ -71,7 +71,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /* margin-right: 76px; */
   padding: 16px 0;
   display: block;
 }
@@ -115,7 +114,7 @@ body {
   top: 0;
   left: 0;
   background: #fff;
-  padding: 24px 24px 40px 16px;
+  padding: 72px 24px 40px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -137,6 +136,9 @@ body {
   border-radius: 50%;
   stroke-width: 1px;
   background-color: transparent;
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
 
 .mob-close-icon {
@@ -222,7 +224,7 @@ body {
   }
 }
 
-.headline-titel {
+.headline-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -323,7 +325,7 @@ body {
   padding-bottom: 96px;
 }
 
-.team-titel {
+.team-titlу {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -337,14 +339,13 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 .team-item {
   background-color: #ffffff;
-  width: 100%;
+  width: 264px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -633,6 +634,7 @@ body {
   height: 100%;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 0;
   pointer-events: none;
