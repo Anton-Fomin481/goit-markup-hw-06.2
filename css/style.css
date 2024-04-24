@@ -953,7 +953,7 @@ body {
     }
   }
 
-  .headline-titel {
+  .headline-title {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
@@ -1080,6 +1080,7 @@ body {
   .headline-title {
     font-size: 56px;
     line-height: 1.07;
+    min-width: 496px;
     margin-bottom: 48px;
   }
 
