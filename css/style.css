@@ -197,7 +197,7 @@ body {
 }
 
 .headline {
-  max-width: 1440px;
+  min-width: 320px;
   background-color: #2e2f42;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -325,7 +325,7 @@ body {
   padding-bottom: 96px;
 }
 
-.team-titlу {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -949,7 +949,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-bg-tab-2x.jpg);
+        url(../images/hero-bg-tab-2x2.jpg);
     }
   }
 
@@ -1062,7 +1062,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/background.jpg);
+      url(../images/background1.jpg);
   }
 
   @media screen and (min-resolution: 2dpx),
@@ -1073,7 +1073,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-bg-2x.jpg);
+        url(../images/hero-bg-2x2.jpg);
     }
   }
 
